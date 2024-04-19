@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel 4</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/gallery.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <!-- =============== SWIPER GALLERY CARDS =============== -->
+      <div class="swiper gallery-cards">
+        <div class="swiper-wrapper" >
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="./media/images (3).jpg" alt="bedroom1"/>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="./media/images (1).jpeg" alt="bedroom2"/>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="./media/images.jpeg" alt="bedroom3"/>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="./media/logo.jpeg" alt="bedroom4"/>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="gallery__card">
+              <img src="./media/images (2).jpg" alt="bedroom5"/>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- =============== SWIPER GALLERY THUMBNAIL =============== -->
+      <div class="gallery__overflow">
+        <div class="swiper gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="./media/images (3).jpg" alt="bedroom1"/>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="./media/images (1).jpeg" alt="bedroom2"/>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="./media/images.jpeg" alt="bedroom3"/>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="./media/logo.jpeg" alt="bedroom4"/>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="gallery__thumbnail">
+                <img src="./media/images (2).jpg" alt="bedroom5"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Swiper pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper arrows -->
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-line"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-line"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/gallery.js"></script>
+  </body>
+</html>

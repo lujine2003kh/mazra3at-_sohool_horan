@@ -1,0 +1,43 @@
+.carousel,.slide{
+position:relative;
+width: 1000px;
+height: 600px;
+margin-top: 10%;
+margin-left: 20%;
+
+}
+
+#carouselExampleIndicators{
+    background-color: red;
+
+}
+#carouselExampleIndicators>button{
+    background-color: #8eada9;
+    
+}
+#carouselExampleIndicators>.carousel-indicators>button{
+    background-color: green;
+    
+}
+/* nav bar css*/
+body{
+    margin:0 auto;
+}
+#navbarScroll{
+    margin-left: 25%;
+    font-size: 20px;
+}
+.navbar{
+    background-color: #8eada9;
+}
+.icons{
+    padding:0 20px;
+    color:white;
+}
+.icons:hover{
+    padding:0 20px;
+    color:#079156;
+}
+.nav-item{
+    padding: 20px;
+}
