@@ -13,11 +13,17 @@ margin-left: 20%;
 }
 #carouselExampleIndicators>button{
     background-color: #8eada9;
-    
+    width: 50px;
+    height: 100px;
+    margin-top: 25%;
 }
 #carouselExampleIndicators>.carousel-indicators>button{
-    background-color: green;
+    background-color: #8eada9;
     
+}
+.imgcl{
+    width:100px;
+    height:600px;
 }
 /* nav bar css*/
 body{
