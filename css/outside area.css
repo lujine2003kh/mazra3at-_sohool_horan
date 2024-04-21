@@ -1,0 +1,53 @@
+.carousel,.slide{
+    position:relative;
+    width: 1000px;
+    height: 600px;
+    margin-top: 10%;
+    margin-left: 20%;
+    
+    }
+    
+    #carouselExampleIndicators{
+        background-color: red;
+        border-width: 30px;
+        bo
+    }
+    #carouselExampleIndicators>button{
+        background-color: #8eada9;
+        width: 50px;
+        height: 100px;
+        margin-top: 25%;
+    }
+    #carouselExampleIndicators>.carousel-indicators>button{
+        background-color: #8eada9;
+    }
+    .imgcl{
+        width:100px;
+        height:600px;
+    }
+    .carousel-inner{
+        border-width: 30px;
+        border-color: black;
+    }
+    /* nav bar css*/
+    body{
+        margin:0 auto;
+    }
+    #navbarScroll{
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    .navbar{
+        background-color: #8eada9;
+    }
+    .icons{
+        padding:0 20px;
+        color:white;
+    }
+    .icons:hover{
+        padding:0 20px;
+        color:#079156;
+    }
+    .nav-item{
+        padding: 20px;
+    }
