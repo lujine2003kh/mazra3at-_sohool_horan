@@ -26,7 +26,7 @@
     width: 100vmin;
     height: 100vmin;
     border-radius: 47% 53% 61% 39% / 45% 51% 49% 55%;
-    background:#0b8751;
+    background:#56967a;
   }
   
   .background::after {
@@ -37,7 +37,7 @@
     width: inherit;
     height: inherit;
     border-radius: inherit;
-    background:#065e38;
+    background:#498068;
   }
   
   .card {
@@ -62,7 +62,7 @@
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
-    background:#11915a;
+    background:#419470;
   }
   
   @media (width >= 500px) {
@@ -105,32 +105,36 @@
   .form > input {
     border: 0;
     padding: 0 24px;
-    color:#0ec777;
+    color:black;
     background: #ededed;
   }
   
   .form > input::placeholder {
     color: rgb(0 0 0 / 28%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
   .form > button {
     border: 0;
     color: #f9f9f9;
-    background: #11915a;
+    background:#419470;
     display: grid;
     place-items: center;
     font-weight: 500;
     cursor: pointer;
   }
-  
+  .card>h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
   .card > footer {
     color: #a1a1a1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
   .card > footer > a {
-    color: #0ec777;
+    color: #419470;
     font-size: 15px;
   }
   .card>h2>span{
-    color: #0ec777;
+    color: #419470;
   }

@@ -9,7 +9,7 @@ margin-left: 20%;
 
 #carouselExampleIndicators{
     background-color: red;
-
+    margin-top: 50px;
 }
 #carouselExampleIndicators>button{
     background-color: #8eada9;
@@ -25,6 +25,19 @@ margin-left: 20%;
     width:100px;
     height:600px;
 }
+img.d-block.w-100.imgcl {
+    border: #56967a;
+    border-width: thick;
+    border-style: solid;
+}
+#demotext {
+    text-shadow: 2px 2px 7px rgba(65,148,112,0.62);
+    color: #56967A;
+    background: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 60px;
+}
 /* nav bar css*/
 body{
     margin:0 auto;
@@ -34,7 +47,7 @@ body{
     font-size: 20px;
 }
 .navbar{
-    background-color: #8eada9;
+    background-color:#56967a;
 }
 .icons{
     padding:0 20px;
@@ -47,3 +60,4 @@ body{
 .nav-item{
     padding: 20px;
 }
+

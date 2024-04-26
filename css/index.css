@@ -1,12 +1,13 @@
 body{
     margin:0 auto;
+    background: #ededed;
 }
 #navbarScroll{
     margin-left: 25%;
     font-size: 20px;
 }
 .navbar{
-    background-color: #8eada9;
+    background-color: #56967a;
 }
 .icons{
     padding:0 20px;
@@ -19,6 +20,7 @@ body{
 .nav-item{
     padding: 20px;
 }
+
 /* book now html and css 
 HTML 
 <div id="booknow">
