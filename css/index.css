@@ -8,6 +8,12 @@ body{
 }
 .navbar{
     background-color: #56967a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.dropdown-menu.show {
+    display: block;
+    border: groove;
+    border-width: medium;
 }
 .icons{
     padding:0 20px;
@@ -30,12 +36,14 @@ HTML
         </svg> Book Now
     </button>
 </div>
-CSS
-#booknow>.btn-outline-success{
-    background-color:#079156 ;
-    color: white;
-    font-size: 15px;
-    padding: 10px 20px;
+*/
+/*CSS*/
+#login {
+    padding: 5px 10px ;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
     border: none;
     border-radius: 35px;
     -webkit-border-radius: 35px;
@@ -43,4 +51,79 @@ CSS
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
     margin-right: 40px;
-}*/
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  #login>a{
+    color: #000;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #login>a:hover{
+    color: #56967a;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #login:hover {
+    background-color:white;
+    box-shadow: 0px 15px 20px white;
+    color: #56967a;
+    transform: translateY(-7px);
+  }
+  
+  #login:active {
+    transform: translateY(-1px);
+  }
+
+  #signup {
+    padding: 5px 10px ;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    margin-right: 40px;
+    margin-left: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  #signup>a{
+    color: #000;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #signup>a:hover{
+    color: #56967a;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #signup:hover {
+    background-color:white;
+    box-shadow: 0px 15px 20px white;
+    color: #56967a;
+    transform: translateY(-7px);
+  }
+  
+  #signup:active {
+    transform: translateY(-1px);
+  }
+
+/*body*/
+.img _ox1 _21y0{
+        background: url(https://scontent.famm10-1.fna.fbcdn.net/v/t15.5256-10/354415394_967283641090547_8860355875216904502_n.jpg?stp=cp0_dst-jpg_e15_p960x960_q65&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=I4HPmv3foNYQ7kNvgHXcL3f&_nc_ht=scontent.famm10-1.fna&edm=AGo2L-IEAAAA&oh=00_AfBWbM91C-UoMzf4EP22JBN6ijA-qUvP0XedTB2h3mnEXA&oe=6635D22C) no-repeat center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        padding-bottom: 56.071%;
+        border-width: thick;
+        border-color: red;
+    
+}
