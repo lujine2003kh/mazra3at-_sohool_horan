@@ -1,0 +1,29 @@
+body{
+    margin:0 auto;
+}
+.gradient-custom {
+    background: rgb(86,150,122);
+    background: linear-gradient(90deg, rgba(86,150,122,1) 0%, rgba(62,173,125,1) 52%, rgba(111,255,188,1) 100%);
+}
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    .mt-4,.pt-2>.btn-primary {
+        color: #fff;
+        background-color: #56967a;
+        border-color: #56967a;
+        margin-bottom: 100px;
+        margin-left: 200px;
+    }
+    .mt-4,.pt-2>.btn-primary:hover {
+        color: black;
+        background-color:#56967a;
+        border-color:#56967a;
+    }
