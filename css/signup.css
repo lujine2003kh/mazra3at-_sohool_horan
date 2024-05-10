@@ -19,11 +19,17 @@ body{
         color: #fff;
         background-color: #56967a;
         border-color: #56967a;
-        margin-bottom: 100px;
-        margin-left: 200px;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        margin-right: 250px;
     }
     .mt-4,.pt-2>.btn-primary:hover {
-        color: black;
+        color: white;
+    box-shadow: 0px 15px 20px white;
+    transform: translateY(-7px);
         background-color:#56967a;
         border-color:#56967a;
+    }
+    .card-body,.p-4,.p-md-5{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
