@@ -217,3 +217,79 @@ body{
     .footertext{
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
+/* responsive*/
+@media screen and (max-width:800px){
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: aliceblue;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+        width: 300px;
+        height: 500px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+      .pricing-block-content>p{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .pricing-block-content>#weekdays>p{
+        font-size: 24px;
+        text-align: center;
+        color: #56967a;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .check-list-item {
+        display: flex;
+        align-items:center;
+        gap: 4px;
+        font-size: 18px;
+      }
+}
+@media screen and (max-width:500px){
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: aliceblue;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+      .pricing-block-content>p{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .pricing-block-content>#weekdays>p{
+        font-size: 13.3px;
+        text-align: center;
+        color: #56967a;
+        margin-bottom: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .check-list-item {
+        display: flex;
+        align-items:center;
+        gap: 2px;
+        font-size: 14px;
+      }
+      #gridCardContainer{
+        display:grid;
+        grid-template-columns:  auto;
+        grid-template-rows: auto auto;
+        gap:0px;
+        height:700px;
+        width: fit-content;
+      }
+}
