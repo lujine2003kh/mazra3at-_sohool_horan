@@ -3,7 +3,7 @@
     width: 1000px;
     height: 600px;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 15%;
     
     }
     
@@ -33,7 +33,7 @@
         color: #56967A;
         background: #FFFFFF;
         margin-top: 50px;
-        margin-left: 450px;
+        margin-left: 350px;
         font-size: 60px;
     }
     /* nav bar css*/
@@ -146,4 +146,72 @@
         border: #56967a;
         border-width: thick;
         border-style: solid;
+    }
+
+    /*footer*/
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+    .parent>p{
+      font-size: 17px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .foot{
+      margin-top: 200px;
+      position: relative;
+    }
+    .footertext{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    @media screen and (max-width:800px){
+      #demotext{
+        margin-left: 150px;
+        font-size: 45px;
+      }
+      #carouselExampleIndicators{
+        width:650px;
+        height: 500px;
+        margin-left: 100px;
+      }
+      .imgcl{
+        width:fit-content;
+        height:fit-content;
+    }
+    #carouselExampleIndicators>button{
+      background-color:#56967a;
+      width: 50px;
+      height: 90px;
+      margin-top: 20%;
+  }
+    }
+
+    @media screen and (max-width:500px){
+      #demotext{
+        margin-left: 50px;
+        font-size: 35px;
+      }
+      #carouselExampleIndicators{
+        width:450px;
+        height: 350px;
+        margin-left: 25px;
+      }
+      .imgcl{
+        width:fit-content;
+        height:fit-content;
+    }
+    #carouselExampleIndicators{
+      border-width: 10px;
+      margin-top: 50px;
+  }
+  #carouselExampleIndicators>button{
+      background-color:#56967a;
+      width: 40px;
+      height: 50px;
+      margin-top: 25%;
+  }
     }

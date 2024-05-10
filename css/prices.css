@@ -1,0 +1,219 @@
+#demotext {
+    text-shadow: 2px 2px 7px rgba(65,148,112,0.62);
+    color: #56967A;
+    background: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 60px;
+}
+/* nav bar css*/
+body{
+    margin:0 auto;
+}
+#navbarScroll{
+    margin-left: 25%;
+    font-size: 20px;
+}
+.navbar{
+    background-color:#56967a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.dropdown-menu.show {
+    display: block;
+    border: groove;
+    border-width: medium;
+}
+.icons{
+    padding:0 20px;
+    color:white;
+}
+.icons:hover{
+    padding:0 20px;
+    color:#079156;
+}
+.nav-item{
+    padding: 20px;
+}
+#login {
+    padding: 5px 10px ;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    margin-right: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  #login>a{
+    color: #000;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #login>a:hover{
+    color: #56967a;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #login:hover {
+    background-color:white;
+    box-shadow: 0px 15px 20px white;
+    color: #56967a;
+    transform: translateY(-7px);
+  }
+  
+  #login:active {
+    transform: translateY(-1px);
+  }
+
+  #signup {
+    padding: 5px 10px ;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    margin-right: 40px;
+    margin-left: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  #signup>a{
+    color: #000;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #signup>a:hover{
+    color: #56967a;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #signup:hover {
+    background-color:white;
+    box-shadow: 0px 15px 20px white;
+    color: #56967a;
+    transform: translateY(-7px);
+  }
+  
+  #signup:active {
+    transform: translateY(-1px);
+  }
+  /*body and cards*/
+  /*Neo Brutalism pricing card*/
+.card {
+    width: 190px;
+    background: #00ffa0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.5vmin solid #05060f;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    overflow: hidden;
+    color: black;
+  }
+  #gridCardContainer{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:50px;
+    height:700px;
+    width: fit-content;
+  }
+  /*Card content*/
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: aliceblue;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+  .pricing-block-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .pricing-block-content>p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .pricing-block-content>#weekdays>p{
+    font-size: 23px;
+    text-align: center;
+    color: #56967a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .pricing-plan {
+    color: #05060f;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .price-value {
+    display: flex;
+    color: #05060f;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .pricing-note {
+    opacity: 0.8;
+  }
+  
+  /*Checklist*/
+  .check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .check-list-item {
+    display: flex;
+    align-items:center;
+    gap: 4px;
+    font-size: 22px;
+  }
+  
+  /*footer*/
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+    .parent>p{
+      font-size: 17px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .foot{
+      margin-top: 200px;
+      position: relative;
+    }
+    .footertext{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }

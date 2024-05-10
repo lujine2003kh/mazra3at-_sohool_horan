@@ -3,7 +3,7 @@ position:relative;
 width: 1000px;
 height: 600px;
 margin-top: 10%;
-margin-left: 20%;
+margin-left: 15%;
 
 }
 
@@ -35,7 +35,7 @@ img.d-block.w-100.imgcl {
     color: #56967A;
     background: #FFFFFF;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
     font-size: 60px;
 }
 /* nav bar css*/
@@ -158,9 +158,54 @@ body{
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
     .foot{
-      margin-top: 500px;
+      margin-top: 200px;
       position: relative;
     }
     .footertext{
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    @media screen and (max-width:800px){
+      #demotext{
+        margin-left: 100px;
+        font-size: 45px;
+      }
+      #carouselExampleIndicators{
+        width:700px;
+        height: 500px;
+        margin-left: 60px;
+      }
+      
+    #carouselExampleIndicators>button{
+      background-color:#56967a;
+      width: 50px;
+      height: 100px;
+      margin-top: 30%;
+  }
+    }
+
+    @media screen and (max-width:500px){
+      #demotext{
+        margin-left: 130px;
+        font-size: 35px;
+      }
+      #carouselExampleIndicators{
+        width:450px;
+        height: 300px;
+        margin-left: 25px;
+      }
+      .imgcl{
+        width:450px;
+        height:300px;
+    }
+    #carouselExampleIndicators{
+      border-width: 10px;
+      margin-top: 50px;
+  }
+  #carouselExampleIndicators>button{
+      background-color:#56967a;
+      width: 40px;
+      height: 50px;
+      margin-top: 25%;
+  }
     }
