@@ -186,16 +186,16 @@ body{
 
     @media screen and (max-width:500px){
       #demotext{
-        margin-left: 130px;
+        margin-left: 20%;
         font-size: 35px;
       }
       #carouselExampleIndicators{
-        width:450px;
+        width:90%;
         height: 300px;
         margin-left: 25px;
       }
       .imgcl{
-        width:450px;
+        width:90%;
         height:300px;
     }
     #carouselExampleIndicators{

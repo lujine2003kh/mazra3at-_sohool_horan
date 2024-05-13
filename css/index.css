@@ -1,294 +1,295 @@
 body{
-    margin:0 auto;
-    background: #ededed;
+  margin:0 auto;
+  background: #ededed;
 }
 #navbarScroll{
-    margin-left: 25%;
-    font-size: 20px;
+  margin-left: 25%;
+  font-size: 20px;
 }
 .navbar{
-    background-color: #56967a;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  background-color: #56967a;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .dropdown-menu.show {
-    display: block;
-    border: groove;
-    border-width: medium;
+  display: block;
+  border: groove;
+  border-width: medium;
 }
 .icons{
-    padding:0 20px;
-    color:white;
+  padding:0 20px;
+  color:white;
 }
 .icons:hover{
-    padding:0 20px;
-    color:#079156;
+  padding:0 20px;
+  color:#079156;
 }
 .nav-item{
-    padding: 20px;
+  padding: 20px;
 }
 /*CSS*/
 #login {
-    padding: 5px 10px ;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
-    margin-right: 40px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  #login>a{
-    color: #000;
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  #login>a:hover{
-    color: #56967a;
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  #login:hover {
-    background-color:white;
-    box-shadow: 0px 15px 20px white;
-    color: #56967a;
-    transform: translateY(-7px);
-  }
-  
-  #login:active {
-    transform: translateY(-1px);
-  }
+  padding: 5px 10px ;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  margin-right: 40px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#login>a{
+  color: #000;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#login>a:hover{
+  color: #56967a;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#login:hover {
+  background-color:white;
+  box-shadow: 0px 15px 20px white;
+  color: #56967a;
+  transform: translateY(-7px);
+}
 
-  #signup {
-    padding: 5px 10px ;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
-    margin-right: 40px;
-    margin-left: 10px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  #signup>a{
-    color: #000;
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  #signup>a:hover{
-    color: #56967a;
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  #signup:hover {
-    background-color:white;
-    box-shadow: 0px 15px 20px white;
-    color: #56967a;
-    transform: translateY(-7px);
-  }
-  
-  #signup:active {
-    transform: translateY(-1px);
-  }
+#login:active {
+  transform: translateY(-1px);
+}
+
+#signup {
+  padding: 5px 10px ;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  margin-right: 40px;
+  margin-left: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#signup>a{
+  color: #000;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#signup>a:hover{
+  color: #56967a;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#signup:hover {
+  background-color:white;
+  box-shadow: 0px 15px 20px white;
+  color: #56967a;
+  transform: translateY(-7px);
+}
+
+#signup:active {
+  transform: translateY(-1px);
+}
 
 /*body*/
 #vid>video{
-  max-width: 900px;
-  width: 1000px;
-  max-height: 500px;
-  height: 900px;
-  margin-left: 250px;
-  margin-top: 50px;
+max-width: 900px;
+width: 1000px;
+max-height: 500px;
+height: 900px;
+margin-left: 250px;
+margin-top: 50px;
+padding: 1.051%;
+background-color:#56967a;
+border-width: thick;
+border-color: red;
+}
+@media screen and (max-width:500px){
+#vid>video{
+  max-width: 64rem;
+  width: 100%;
+  max-height: 30.875rem;
+  height: 100%;
+  margin: 1.25rem auto;
   padding: 1.051%;
   background-color:#56967a;
   border-width: thick;
-  border-color: red;
 }
-@media screen and (max-width:500px){
-  #vid>video{
-    max-width: 64rem;
-    width: 100%;
-    max-height: 30.875rem;
-    height: 100%;
-    margin: 1.25rem auto;
-    padding: 1.051%;
-    background-color:#56967a;
-    border-width: thick;
-  }
-  
-  #firstRow{
-    display:grid;
-      grid-template-columns: 5px 5px;
-      gap:50px;
-      height:200px;
-  }
-  #firstCard{
-    width: 100px;
-    height: 150px;
-    margin: 10px 5px;
-    padding: 0;
-  }
-  #secondCard{
-    width: 100px;
-    height: 150px;
-    margin: 10px 5px;
-    padding: 0;
-  }
-  #thirdCard{
-    width: 100px;
-    height: 150px;
-    margin: 10px ;
-    padding: 0;
-  }
-  .card1{
-    width: 100px;
-    height: 150px;
-    margin: 10px 5px;
-    padding: 0;
-  }
-  .card2{
-    width: 100px;
-    height: 150px;
-    margin: 10px 5px;
-    padding: 0;
-  }
-  .card3{
-    width: 100px;
-    height: 150px;
-    margin: 10px 5px;
-    padding: 0;
-  }
-}
-@media screen and (max-width:800px){
-  #vid>video{
-    max-width: 64rem;
-    width: 100%;
-    max-height: 30.875rem;
-    height: 100%;
-    margin: 1.25rem auto;
-    padding: 1.051%;
-    background-color:#56967a;
-    border-width: thick;
-    border-color: red;
-  }
-  
-  .card1{
-    margin-left: 100px;
-    margin-top: 100px;
-  }
-  .card2{
-    margin-left: 200px;
-    margin-top: 100px;
-  }
-  .card3{
-    margin-left: 350px;
-    margin-top: 300px;
-  }
-}
-/*cards section*/
+
 #firstRow{
   display:grid;
     grid-template-columns: auto auto;
     gap:50px;
     height:200px;
 }
+#firstCard{
+  width: 100px;
+  height: 150px;
+  margin: 10px 5px;
+  padding: 0;
+}
+#secondCard{
+  width: 100px;
+  height: 150px;
+  margin: 10px 5px;
+  padding: 0;
+}
+#thirdCard{
+  width: 100px;
+  height: 150px;
+  margin: 10px ;
+  padding: 0;
+}
+
 .card1{
-  margin-left: 200px;
+  width: 100px;
+  height: 150px;
+  margin: 10px 5px;
+  padding: 0;
+}
+.card2{
+  width: 100px;
+  height: 150px;
+  margin: 10px 5px;
+  padding: 0;
+  margin-left: 0px;
+}
+.card3{
+  width: 100px;
+  height: 150px;
+  margin: 10px 5px;
+  padding: 0;
+}
+}
+@media screen and (max-width:800px){
+#vid>video{
+  max-width: 64rem;
+  width: 100%;
+  max-height: 30.875rem;
+  height: 100%;
+  margin: 1.25rem auto;
+  padding: 1.051%;
+  background-color:#56967a;
+  border-width: thick;
+  border-color: red;
+}
+
+.card1{
+  margin-left: 100px;
   margin-top: 100px;
 }
 .card2{
-  margin-left: 500px;
+  /* margin-left: 200px; */
   margin-top: 100px;
 }
 .card3{
-  margin-left: 650px;
+   margin-left: 200px; 
   margin-top: 300px;
+}
+}
+/*cards section*/
+#firstRow{
+display:grid;
+  grid-template-columns: auto auto;
+  gap:50px;
+  height:200px;
+}
+.card1{
+margin-left: 300px;
+margin-top: 100px;
+}
+.card2{
+/*margin-left:500px;*/
+margin-top: 100px;
+}
+.card3{
+margin-left: 600px;
+margin-top: 300px;
 }
 /*card design*/
 .card {
-  width: 190px;
-  height: 254px;
-  transition: all 0.2s;
-  position: relative;
-  cursor: pointer;
+width: 190px;
+height: 254px;
+transition: all 0.2s;
+position: relative;
+cursor: pointer;
 }
 
 .card-inner {
-  width: inherit;
-  height: inherit;
-  background: rgba(255,255,255,.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.25);
-  backdrop-filter: blur(10px);
-  border-radius: 8px;
+width: inherit;
+height: inherit;
+background: rgba(255,255,255,.05);
+box-shadow: 0 0 10px rgba(0,0,0,0.25);
+backdrop-filter: blur(10px);
+border-radius: 8px;
 }
 
 .card:hover {
-  transform: scale(1.04) rotate(1deg);
+transform: scale(1.04) rotate(1deg);
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(#56967a,#079156);
-  border-radius: 50%;
-  position: absolute;
-  animation: move-up6 2s ease-in infinite alternate-reverse;
+width: 100px;
+height: 100px;
+background: radial-gradient(#56967a,#079156);
+border-radius: 50%;
+position: absolute;
+animation: move-up6 2s ease-in infinite alternate-reverse;
 }
 
 .circle:nth-child(1) {
-  top: -25px;
-  left: -25px;
+top: -25px;
+left: -25px;
 }
 
 .circle:nth-child(2) {
-  bottom: -25px;
-  right: -25px;
-  animation-name: move-down1;
+bottom: -25px;
+right: -25px;
+animation-name: move-down1;
 }
 
 @keyframes move-up6 {
-  to {
-    transform: translateY(-10px);
-  }
+to {
+  transform: translateY(-10px);
+}
 }
 
 @keyframes move-down1 {
-  to {
-    transform: translateY(10px);
-  }
+to {
+  transform: translateY(10px);
+}
 }
 /*footer*/
 .parent {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 50px;
-  grid-row-gap: 0px;
-  }
-  .parent>p{
-    font-size: 17px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  .foot{
-    margin-top: 200px;
-    position: relative;
-  }
-  .footertext{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+.parent>p{
+  font-size: 17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.foot{
+  margin-top: 200px;
+  position: relative;
+}
+.footertext{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

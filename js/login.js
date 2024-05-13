@@ -5,17 +5,23 @@ var password = document.getElementById('passwordID')
 form.addEventListener('submit',function (e){
     e.preventDefault();
     var allUsers = JSON.parse(localStorage.getItem('userDataFromLocal'));
-    
+    var isExisted=false;
     for (var i = 0 ; i<allUsers.length;i++){
-        if(allUsers[i].userEmail == userEmail.value && allUsers[i].password == password.value){
+        console.log("login");
+        console.log(allUsers[i]);
+        if(allUsers[i].email == userEmail.value && allUsers[i].password == password.value){
             console.log('email already exists');
             alert('login successful');
             localStorage.setItem('isLoggedIn',true);
+            isExisted=true;
             window.location.href='index.html';
         }
         else {
             console.log('email do not exists');
-            alert('login failed check your email and password');
         }
+
+    }
+    if(isExisted==false){
+        alert("user does not exist");
     }
 })
